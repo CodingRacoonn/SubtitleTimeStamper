@@ -37,7 +37,7 @@ namespace Interface
 
         private void AdjustSubs_Click(object sender, EventArgs e)
         {
-            if (lines == null || lines?.Count == 0)
+            if (lines is null || lines?.Count == 0)
             {
                 MessageBox.Show("Wybierz plik", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
